@@ -6,18 +6,18 @@ public class LineareSuche {
 
     public LineareSuche() {
         scanner = new Scanner(System.in);
-        zahlen = new double[]{3.4, 5.0, 0.6, 19.6, 13, 6.6, 9.8};
+        zahlen = new double[]{-100000000.0, 3.4, 5.0, 0.6, 19.6, 13, 6.6, 9.8};
         for (int i = 0; i < zahlen.length; i++) {
-            zahlen[i] = zahlen[i] * 6.0 / 2.0 / 2.0 / 3.0;
+            // zahlen[i] = zahlen[i] * 6.0 / 2.0 / 2.0 / 3.0;
             System.out.println(zahlen[i]);
         }
 
         System.out.print("Gesuchte Zahl: ");
         double eingabe = scanner.nextDouble();
 
-        int erg = lineareSuche(zahlen, eingabe);
+        int erg = lineareSucheTobias(zahlen, eingabe);
 
-        System.out.println(eingabe + " ist an Stelle " + erg + " vorhanden.");
+        // System.out.println(eingabe + " ist an Stelle " + erg + " vorhanden.");
     }
 
     /**
@@ -40,6 +40,10 @@ public class LineareSuche {
 
     public int lineareSucheTobias(double[] a, double gesucht) {
         for (int i = 0; i < a.length; i++) {
+            System.out.println("a[i]   :" + a[i] * 100_000);
+            System.out.println("gesucht:" + gesucht * 100_000);
+            System.out.println();
+
             if ((int) (a[i] * 100_000) == (int) (gesucht * 100_000)) {
                 return i;
             }

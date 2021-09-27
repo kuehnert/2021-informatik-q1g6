@@ -22,15 +22,29 @@ public class LineareSuche {
         // System.out.println(eingabe + " ist an Stelle " + erg + " vorhanden.");
     }
 
+    public static void main(String[] args) {
+        new LineareSuche();
+    }
+
     /**
-     * Die Methode durchsucht ein Array von Kommazahlen nach einer gesuchten Zahl
-     * Wenn die Zahl enthalten ist, gibt sie den Index im Array zurück,
-     * ansonsten -1, wenn sie nicht enthalten ist.
-     * @param a das Array, das durchsucht werden soll
+     * Die Methode durchsucht ein Array von Kommazahlen nach einer gesuchten Zahl Wenn die Zahl enthalten ist, gibt sie
+     * den Index im Array zurück, ansonsten -1, wenn sie nicht enthalten ist.
+     *
+     * @param a       das Array, das durchsucht werden soll
      * @param gesucht die gesuchte Zahl
      * @return Index oder -1
      */
-    public int lineareSuche(double[] a, double gesucht) {
+    public static int lineareSuche(double[] a, double gesucht) {
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] == gesucht) {
+                return i;
+            }
+        }
+
+        return -1;
+    }
+
+    public static int lineareSuche(int[] a, int gesucht) {
         for (int i = 0; i < a.length; i++) {
             if (a[i] == gesucht) {
                 return i;
@@ -52,9 +66,5 @@ public class LineareSuche {
         }
 
         return -1;
-    }
-
-    public static void main(String[] args) {
-        new LineareSuche();
     }
 }

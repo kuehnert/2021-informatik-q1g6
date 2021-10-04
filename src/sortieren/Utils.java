@@ -36,13 +36,13 @@ public class Utils {
 
     private static boolean kommtSchonVor(int[] a, int gesucht) {
         // return LineareSuche.lineareSuche(a, gesucht);
-        // if (LineareSuche.lineareSuche(a, gesucht) < 0) {
+        // if (LineareSuche.lineareSuche(a, gesucht) >= 0) {
         //     return false;
         // } else {
         //     return true;
         // }
 
-        // return LineareSuche.lineareSuche(a, gesucht) < 0 ? false : true;
-        return LineareSuche.lineareSuche(a, gesucht) < 0;
+        // return LineareSuche.lineareSuche(a, gesucht) >= 0 ? false : true;
+        return LineareSuche.lineareSuche(a, gesucht) >= 0;
     }
 }

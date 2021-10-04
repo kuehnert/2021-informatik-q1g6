@@ -23,6 +23,9 @@ public class TestUtils {
         int[] a = Utils.generateArraySingular(2);
         System.out.println(Arrays.toString(a));
 
+        a = Utils.generateArraySingular(200);
+        System.out.println(Arrays.toString(a));
+
         System.out.println("Fertig!");
     }
 

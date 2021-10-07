@@ -38,10 +38,15 @@ public class Utils {
 
     public static int[] generateArraySingular2(int length) {
         int maxValue = (length < Integer.MAX_VALUE / 10) ? length * 10 : Integer.MAX_VALUE;
-        generateArraySingular2(length, maxValue);
+        return generateArraySingular2(length, maxValue);
     }
 
     public static int[] generateArraySingular2(int length, int maxValue) {
+        if (maxValue < length) {
+            throw new IllegalArgumentException("Invalid Parameter: maxValue must be greater than or equal to " +
+                    "length");
+        }
+
         int[] a = new int[length];
         var verwendet = new boolean[maxValue];
         Arrays.fill(verwendet, false);

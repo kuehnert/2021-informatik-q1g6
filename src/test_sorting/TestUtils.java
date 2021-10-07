@@ -36,6 +36,9 @@ public class TestUtils {
         a = Utils.generateArraySingular2(200);
         System.out.println(Arrays.toString(a));
 
+        a = Utils.generateArraySingular2(200, 10);
+        System.out.println(Arrays.toString(a));
+
         System.out.println("Fertig!");
     }
 

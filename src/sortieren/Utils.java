@@ -2,6 +2,8 @@ package sortieren;
 
 import suchen.LineareSuche;
 
+import java.util.Arrays;
+
 public class Utils {
     public static int[] generateArray(int length) {
         int[] a = new int[length];
@@ -29,6 +31,29 @@ public class Utils {
             }
 
             a[i] = x;
+        }
+
+        return a;
+    }
+
+    public static int[] generateArraySingular2(int length) {
+        int maxValue = (length < Integer.MAX_VALUE / 10) ? length * 10 : Integer.MAX_VALUE;
+        generateArraySingular2(length, maxValue);
+    }
+
+    public static int[] generateArraySingular2(int length, int maxValue) {
+        int[] a = new int[length];
+        var verwendet = new boolean[maxValue];
+        Arrays.fill(verwendet, false);
+
+        for (int i = 0; i < a.length; i++) {
+            int x;
+            do {
+                x = (int) (Math.random() * maxValue);
+            } while (verwendet[x]);
+
+            a[i] = x;
+            verwendet[x] = true;
         }
 
         return a;

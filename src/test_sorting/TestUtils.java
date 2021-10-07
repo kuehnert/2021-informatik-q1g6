@@ -29,8 +29,19 @@ public class TestUtils {
         System.out.println("Fertig!");
     }
 
+    public static void testGenerateArraySingular2() {
+        int[] a = Utils.generateArraySingular2(2);
+        System.out.println(Arrays.toString(a));
+
+        a = Utils.generateArraySingular2(200);
+        System.out.println(Arrays.toString(a));
+
+        System.out.println("Fertig!");
+    }
+
     public static void main(String[] args) {
-        testGenerateArray();
-        testGenerateArraySingular();
+        // testGenerateArray();
+        // testGenerateArraySingular();
+        testGenerateArraySingular2();
     }
 }

@@ -4,15 +4,14 @@ import java.util.Arrays;
 
 // auch bekannt als Selection Sort
 public class MinSort {
-    public MinSort() {
-        int[] a = {5, 10, 15, 7, 3, 2, 9, 420, -73, -3000};
-        System.out.println(Arrays.toString(a));
-        sortieren(a);
-        System.out.println(Arrays.toString(a));
+    private int[] a;
+
+    public MinSort(int[] a) {
+        this.a = a;
     }
 
     // in-place Sortieren
-    public void sortieren(int[] a) {
+    public void sortieren() {
         // äußere Schleife: trennt sortierten & unsortieren Bereich
         // beginnt bei 0, weil der sortierte Bereich zu Beginn leer ist
         for (int i = 0; i < a.length; i++) {
@@ -33,9 +32,5 @@ public class MinSort {
             a[i] = a[min];
             a[min] = temp;
         }
-    }
-
-    public static void main(String[] args) {
-        new MinSort();
     }
 }

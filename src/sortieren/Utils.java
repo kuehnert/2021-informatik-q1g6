@@ -4,7 +4,13 @@ import suchen.LineareSuche;
 
 import java.util.Arrays;
 
-public class Utils {
+public class Utils { // DRY => Don't repeat yourself
+    public static void swap(int[] a, int x, int y) {
+        int temp = a[x];
+        a[x] = a[y];
+        a[y] = temp;
+    }
+
     public static int[] generateArray(int length) {
         int[] a = new int[length];
         // tertiären operator

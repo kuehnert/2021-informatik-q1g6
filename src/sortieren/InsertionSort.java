@@ -10,7 +10,11 @@ public class InsertionSort {
     public void sortieren() {
         // 6 1 3 5 2 4|
         for (int i = 1; i < a.length; i++) {
-            a[i] = -1;
+            int j = i;
+
+            while (j >= 0 && a[j] < a[j-1]) {
+                Utils.swap(a, j, j-1);
+            }
         }
     }
 }

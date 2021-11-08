@@ -3,10 +3,10 @@ package sortieren;
 import java.util.Arrays;
 
 // auch bekannt als Selection Sort
-public class MinSort {
+public class SelectionSort {
     private int[] a;
 
-    public MinSort(int[] a) {
+    public SelectionSort(int[] a) {
         this.a = a;
     }
 

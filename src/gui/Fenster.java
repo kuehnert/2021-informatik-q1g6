@@ -12,9 +12,15 @@ public class Fenster extends JFrame {
         super(); // ruft den Konstruktor von JFrame auf, muss 1. Zeile sein
 
         bBombe.addActionListener(new ActionListener() {
+            private int bombeZaehler = 10;
+
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "Bumm!");
+                if (--bombeZaehler == 0) {
+                    JOptionPane.showMessageDialog(null, "Bumm!");
+                }
+
+                bBombe.setText(bombeZaehler + " Sekunden");
             }
         });
 

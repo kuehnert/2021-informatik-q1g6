@@ -1,5 +1,7 @@
 package gui;
 
+import utils.PlaySound;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -17,6 +19,7 @@ public class Fenster extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (--bombeZaehler == 0) {
+                    PlaySound.playSound("Bomb.wav");
                     JOptionPane.showMessageDialog(null, "Bumm!");
                 }
 
@@ -25,9 +28,9 @@ public class Fenster extends JFrame {
         });
 
         add(pMain);
-                setSize(800, 600);
+        setSize(800, 600);
         setTitle("MrKs 11G6 Sortierer");
-        setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         setVisible(true); // sollte am Ende stehen
     }

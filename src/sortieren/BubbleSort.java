@@ -1,10 +1,15 @@
 package sortieren;
 
+import javax.swing.*;
+import java.util.Arrays;
+
 public class BubbleSort {
     private int[] a;
+    private JTextArea ausgabe;
 
-    public BubbleSort(int[] a) {
+    public BubbleSort(int[] a, JTextArea ausgabe) {
         this.a = a;
+        this.ausgabe = ausgabe;
     }
 
     public void sortieren() {
@@ -23,9 +28,15 @@ public class BubbleSort {
         for (int i = a.length - 1; i > 0; i -= 1) {
             for (int j = 0; j < i; j++) {
                 if (a[j] > a[j + 1]) {
-                    Utils.swap(a, j, j+1);
+                    Utils.swap(a, j, j + 1);
+                    if (ausgabe != null) {
+                        ausgabe.append(Arrays.toString(a) + "\n");
+                    } else {
+                        System.out.println(Arrays.toString(a));
+                    }
                 }
             }
         }
     }
 }
+

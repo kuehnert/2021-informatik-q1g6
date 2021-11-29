@@ -1,4 +1,4 @@
-package gui;
+package bombe_gui;
 
 import utils.PlaySound;
 

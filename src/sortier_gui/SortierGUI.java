@@ -17,7 +17,7 @@ public class SortierGUI extends JFrame {
 
     public SortierGUI() {
         super();
-        setTitle("MrK.'s Soretier-GUI");
+        setTitle("MrK.'s Sortier-GUI");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         add(pMain);
         setSize(800, 600);

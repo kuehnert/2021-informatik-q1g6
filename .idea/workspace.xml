@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34215e3f-7a57-4c63-b8b0-5908f3ad35b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2021-informatik-q1g6-modo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rekursion/fibonacci/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021-informatik-q1g6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +61,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644238027367</updated>
-      <workItem from="1644238028859" duration="660000" />
+      <workItem from="1644238028859" duration="1815000" />
+      <workItem from="1644390301826" duration="31000" />
     </task>
     <servers />
   </component>
@@ -83,5 +76,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

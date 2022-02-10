@@ -27,15 +27,21 @@ public class Fibonacci {
         }
     }
 
+    // Memoization
+    public static long fibonacciRekursivMemoized(int n) {
+        throw new UnsupportedOperationException("Das ist die Hausaufgabe!");
+    }
+
     public static void main(String[] args) {
-        for (int i = 21; i <= 48; i++) {
+        for (int i = 37; i <= 44; i++) {
             // System.out.printf("%2d: Iterativ: %d, Rekursiv: %d%n", i, fibonacciIterativ(i), fibonacciRekursiv(i));
             // System.out.printf("%2d: Iterativ: %d%n", i, fibonacciIterativ(i));
             long start = System.currentTimeMillis();
-            fibonacciRekursiv(i);
+            long result = fibonacciRekursivMemoized(i);
             long finish = System.currentTimeMillis();
-            long duration = finish - start;
-            System.out.printf("%2d: Rekursiv: %d (%fs)%n", i, ???);
+            double duration = (finish - start) / 1000.0;
+
+            System.out.printf("%2d: Rekursiv: %d (%.2fs)%n", i, result, duration);
         }
     }
 }

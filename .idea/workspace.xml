@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34215e3f-7a57-4c63-b8b0-5908f3ad35b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rekursion/fibonacci/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rekursion/fibonacci/Fibonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,8 @@
       <updated>1644238027367</updated>
       <workItem from="1644238028859" duration="1815000" />
       <workItem from="1644390301826" duration="31000" />
-      <workItem from="1644479598089" duration="4247000" />
+      <workItem from="1644479598089" duration="5026000" />
+      <workItem from="1644581777131" duration="126000" />
     </task>
     <servers />
   </component>

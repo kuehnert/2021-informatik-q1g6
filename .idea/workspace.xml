@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34215e3f-7a57-4c63-b8b0-5908f3ad35b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/rekursion/strings/palindrom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021-informatik-q1g6-modo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2021-informatik-q1g6-modo.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.palindrom">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rekursion.fibonacci.Fibonacci" />
       <module name="2021-informatik-q1g6-modo" />
@@ -47,8 +49,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="palindrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rekursion.strings.palindrom" />
+      <module name="2021-informatik-q1g6-modo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rekursion.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.palindrom" />
         <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
@@ -65,6 +81,7 @@
       <workItem from="1644390301826" duration="31000" />
       <workItem from="1644479598089" duration="5026000" />
       <workItem from="1644581777131" duration="126000" />
+      <workItem from="1645446213452" duration="2473000" />
     </task>
     <servers />
   </component>

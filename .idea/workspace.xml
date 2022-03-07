@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34215e3f-7a57-4c63-b8b0-5908f3ad35b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/media/geheim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rekursion/strings/palindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rekursion/strings/palindrom.java" afterDir="false" />
     </list>
@@ -82,7 +81,10 @@
       <workItem from="1644479598089" duration="5026000" />
       <workItem from="1644581777131" duration="126000" />
       <workItem from="1645446213452" duration="3958000" />
-      <workItem from="1645534998112" duration="1850000" />
+      <workItem from="1645534998112" duration="2579000" />
+      <workItem from="1645603126953" duration="9000" />
+      <workItem from="1645689367783" duration="2268000" />
+      <workItem from="1646646316262" duration="607000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,8 @@
 package rekursion.strings;
 
+// If at first you don't succeed....
+// try, try again
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -16,13 +19,22 @@ public class palindrom {
             return (erstes == letztes) && isPalindrome(zwischen);
         }
     }
-
-    private static void _permutationen(String remainder) {
-        throw new UnsupportedOperationException("Noch nicht fertig!");
+    // "h", "elp"
+    private static void _permutationen(String fertig, String rest) {
+        if (rest.length() == 0) {
+            System.out.println(fertig);
+        } else {
+            for (int i = 0; i < rest.length(); i++) {
+                char zeichen = rest.charAt(i);
+                String neuerRest = rest.substring(0, i) + rest.substring(i+1);
+                _permutationen(fertig + zeichen, neuerRest);
+            }
+        }
     }
 
+    // Starter-Methode
     public static void permutationen(String wort) {
-        _permutationen(wort);
+        _permutationen("", wort);
     }
 
     // lagerregal = lagerregal
@@ -35,6 +47,10 @@ public class palindrom {
         // System.out.println(isPalindrome("ana")); //=> true
         // System.out.println(isPalindrome("abc")); //=> false
         // System.out.println(isPalindrome("lagerregal")); //=> true
-        permutationen("help");
+        permutationen("isabel"); // abc, acb,
     }
 }
+
+// astronomer
+// moonstarer
+// Scrabble => SOWPODS dictionary

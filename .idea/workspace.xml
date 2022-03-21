@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34215e3f-7a57-4c63-b8b0-5908f3ad35b2" name="Changes" comment="" />
+    <list default="true" id="34215e3f-7a57-4c63-b8b0-5908f3ad35b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/woerter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cmd/CMDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cmd/FileLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cmd/PWGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,17 +34,46 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
   </component>
-  <component name="RunManager" selected="Application.palindrom">
+  <component name="RunManager" selected="Application.PWGen">
+    <configuration name="CMDTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cmd.CMDTest" />
+      <module name="2021-informatik-q1g6-modo" />
+      <option name="PROGRAM_PARAMETERS" value="23 37" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cmd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rekursion.fibonacci.Fibonacci" />
       <module name="2021-informatik-q1g6-modo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="rekursion.fibonacci.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PWGen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cmd.PWGen" />
+      <module name="2021-informatik-q1g6-modo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cmd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,8 +94,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Fibonacci" />
+      <item itemvalue="Application.palindrom" />
+      <item itemvalue="Application.CMDTest" />
+      <item itemvalue="Application.PWGen" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PWGen" />
+        <item itemvalue="Application.CMDTest" />
         <item itemvalue="Application.palindrom" />
         <item itemvalue="Application.Fibonacci" />
       </list>
@@ -85,6 +129,7 @@
       <workItem from="1646654094820" duration="1826000" />
       <workItem from="1646659786619" duration="2000" />
       <workItem from="1646809363511" duration="24000" />
+      <workItem from="1647865676106" duration="4297000" />
     </task>
     <servers />
   </component>
@@ -99,5 +144,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

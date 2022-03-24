@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34215e3f-7a57-4c63-b8b0-5908f3ad35b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/woerter.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmd/CMDTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmd/FileLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmd/PWGen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021-informatik-q1g6-modo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2021-informatik-q1g6-modo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cmd/PWGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmd/PWGen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +127,8 @@
       <workItem from="1646659786619" duration="2000" />
       <workItem from="1646809363511" duration="24000" />
       <workItem from="1647865676106" duration="4297000" />
+      <workItem from="1648019381155" duration="21000" />
+      <workItem from="1648108502082" duration="1780000" />
     </task>
     <servers />
   </component>

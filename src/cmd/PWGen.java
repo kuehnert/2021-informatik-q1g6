@@ -36,20 +36,18 @@ public class PWGen {
         String filename = "media/woerter.txt";
         String woerterStr = FileLoader.load(filename);
         String[] woerter = woerterStr.split("\n");
-        System.out.println(Arrays.toString(woerter));
-        ArrayList<String> list = new ArrayList<>();
+        String output = woerter[(int) gen.nextInt(woerter.length)];
 
-        for (int i = 0; i < anzahl; i++) {
-            list.add(woerter[(int) gen.nextInt(woerter.length)]);
+        for (int i = 1; i < anzahl; i++) {
+            output += String.format("%02d%s", gen.nextInt(100), woerter[(int) gen.nextInt(woerter.length)]);
         }
 
-        String output = String.join(""+gen.nextInt(100), list);
         return output;
     }
 
     public static void main(String[] args) {
-        // methode: 1, 2, 3
         // laenge: 8-20
-        System.out.println(methode3(3));
+        // methode: 1, 2, 3 OPTIONAL 1
+        System.out.println(methode3(20));
     }
 }

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34215e3f-7a57-4c63-b8b0-5908f3ad35b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cmd/PWTobias.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/woerter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/woerter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cmd/PWGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmd/PWGen.java" afterDir="false" />
-    </list>
+    <list default="true" id="34215e3f-7a57-4c63-b8b0-5908f3ad35b2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,6 +141,7 @@
       <workItem from="1647865676106" duration="4297000" />
       <workItem from="1648019381155" duration="21000" />
       <workItem from="1648108502082" duration="4293000" />
+      <workItem from="1649228459768" duration="598000" />
     </task>
     <servers />
   </component>

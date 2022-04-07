@@ -1,4 +1,4 @@
-package bombe_gui;
+package anderes.cmd.gui;
 
 import utils.PlaySound;
 

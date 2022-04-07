@@ -1,4 +1,4 @@
-package cmd;
+package anderes.cmd;
 
 import java.io.BufferedWriter;
 import java.io.File;

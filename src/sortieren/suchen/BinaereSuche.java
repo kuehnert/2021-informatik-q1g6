@@ -1,4 +1,4 @@
-package suchen;
+package sortieren.suchen;
 
 public class BinaereSuche {
     public static void main(String[] args) {

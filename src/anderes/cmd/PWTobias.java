@@ -1,4 +1,4 @@
-package cmd;
+package anderes.cmd;
 
 public class PWTobias {
     private static String sCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890?!#*";

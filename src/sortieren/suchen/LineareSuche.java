@@ -1,4 +1,4 @@
-package suchen;
+package sortieren.suchen;
 
 import java.util.Scanner;
 

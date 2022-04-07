@@ -1,4 +1,4 @@
-package sortier_gui;
+package sortieren.sortier_gui;
 
 import sortieren.BubbleSort;
 

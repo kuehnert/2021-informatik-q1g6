@@ -1,4 +1,4 @@
-package cmd;
+package anderes.cmd;
 
 public class CMDTest {
     public static void main(String[] args) {

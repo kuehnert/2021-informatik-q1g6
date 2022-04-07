@@ -1,4 +1,4 @@
-package test_sorting;
+package sortieren.test_sorting;
 
 import sortieren.SelectionSort;
 import java.util.Arrays;

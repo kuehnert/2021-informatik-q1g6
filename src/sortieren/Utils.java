@@ -1,6 +1,6 @@
 package sortieren;
 
-import suchen.LineareSuche;
+import sortieren.suchen.LineareSuche;
 
 import java.util.Arrays;
 

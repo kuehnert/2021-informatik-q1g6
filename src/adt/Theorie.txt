@@ -1,0 +1,33 @@
+Abstrakte Datentypen
+
+* Heben sich ab von...
+  * Primitive Datentypen, Elementare Datentypen:
+    * int, char, double, float, long, short, boolean
+    * int zahl => Die Variable ist synonym mit dem Wert
+  * Referenzdatentypen: Variablenname ist ein Verweis (Referenz) auf die Adresse im Hauptspeicher (Heap), wo das Objekt gespeichert ist
+    * String, BigInteger, ArrayList, Scanner,
+    * Schueler (String nachname, String vorname, int alter)
+
+* Sind: Meta-Datentypen, wo die Funktion im Vordergrund steht
+  * Entwickler, der sie verwendet, kennt die Schnittstelle des ADT
+  * aber nicht die konkrete Implementierung
+  * Vergleichbar mit APIs
+
+* ADT, die wir besprechen werden:
+  * Queue (Schlange)
+  * Stack (Keller)
+  * List (Liste)
+  * Tree (Baum)
+  * Graph (Graph) (→ Routenplaner)
+
+# Queue
+* Warteschlange
+* FIFO => First In, First Out (“First Come, First Served”)
+* Benötigte Methoden:
+  * head(): Element => Gibt das vorderste Element der Schlange zurück
+  * add(Element e) => Fügt e am Ende der Schlange
+  * remove(): Element => Gibt das erste Element der Schlange zurück und entfernt
+
+* Nice-To-Have:
+  * last(): Element
+  * size(): int => Größe Schlange

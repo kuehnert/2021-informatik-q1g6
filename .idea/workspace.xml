@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34215e3f-7a57-4c63-b8b0-5908f3ad35b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/adt/Schueler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adt/Theorie.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adt/queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adt/queue/TestQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HalloWelt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/HalloWelt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bombe_gui/Fenster.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/anderes/cmd/gui/Fenster.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bombe_gui/Fenster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/anderes/cmd/gui/Fenster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cmd/CMDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/anderes/cmd/CMDTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cmd/FileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/anderes/cmd/FileLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cmd/PWGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/anderes/cmd/PWGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cmd/PWTobias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/anderes/cmd/PWTobias.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortier_gui/SortierGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortieren/sortier_gui/SortierGUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortier_gui/SortierGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortieren/sortier_gui/SortierGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortieren/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortieren/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suchen/BinaereSuche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortieren/suchen/BinaereSuche.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suchen/LineareSuche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortieren/suchen/LineareSuche.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_sorting/TestBubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortieren/test_sorting/TestBubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_sorting/TestInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortieren/test_sorting/TestInsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_sorting/TestSelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortieren/test_sorting/TestSelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_sorting/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortieren/test_sorting/TestUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +51,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2021-informatik-q1g4-mifri" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.Schueler">
+  <component name="RunManager" selected="Application.TestQueue">
     <configuration name="CMDTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="anderes.cmd.CMDTest" />
       <module name="2021-informatik-q1g6-modo" />
@@ -129,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="palindrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rekursion.strings.palindrom" />
+    <configuration name="TestQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adt.queue.TestQueue" />
       <module name="2021-informatik-q1g6-modo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rekursion.strings.*" />
+          <option name="PATTERN" value="adt.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,19 +126,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.palindrom" />
       <item itemvalue="Application.CMDTest" />
       <item itemvalue="Application.PWGen" />
       <item itemvalue="Application.PWTobias" />
       <item itemvalue="Application.Schueler" />
+      <item itemvalue="Application.TestQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestQueue" />
         <item itemvalue="Application.Schueler" />
         <item itemvalue="Application.PWGen" />
         <item itemvalue="Application.PWTobias" />
         <item itemvalue="Application.CMDTest" />
-        <item itemvalue="Application.palindrom" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +173,8 @@
       <workItem from="1649257184706" duration="21000" />
       <workItem from="1649315831938" duration="1100000" />
       <workItem from="1649318439897" duration="953000" />
+      <workItem from="1649416724055" duration="123000" />
+      <workItem from="1650886149750" duration="1941000" />
     </task>
     <servers />
   </component>

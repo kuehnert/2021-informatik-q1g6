@@ -1,9 +1,9 @@
-package adt.queue;
+package adt.beispiele;
 
-public class Queue {
+public class QueueEis {
     private Item first;
 
-    public void enqueue(int data) {
+    public void enqueue(Kunde data) {
         Item newItem = new Item(data);
 
         if (isEmpty()) {
@@ -19,12 +19,12 @@ public class Queue {
         }
     }
 
-    public int dequeue() {
+    public Kunde dequeue() {
         if (first == null) {
             throw new IllegalStateException("Schlange ist leer");
         }
 
-        int data = first.getData();
+        Kunde data = first.getData();
         first = first.getNext();
         return data;
     }
@@ -65,18 +65,18 @@ public class Queue {
 }
 
 class Item {
-    private int data;
+    private Kunde data;
     private Item next;
 
-    public Item(int data) {
+    public Item(Kunde data) {
         this.data = data;
     }
 
-    public int getData() {
+    public Kunde getData() {
         return data;
     }
 
-    public void setData(int data) {
+    public void setData(Kunde data) {
         this.data = data;
     }
 

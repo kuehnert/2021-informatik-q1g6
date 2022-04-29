@@ -11,6 +11,9 @@ public class Eisdiele extends JFrame {
     private JButton bBedienen;
     private JTextArea taLog;
     private JPanel pMain;
+    private JTextArea taSchlange;
+    private JButton bAuto;
+    private EisThread thread;
 
     private QueueEis schlange;
 
@@ -23,14 +26,14 @@ public class Eisdiele extends JFrame {
 
         schlange = new QueueEis();
         bBedienen.setEnabled(!schlange.isEmpty());
+        tfName.setText(Kunde.getZufallsname());
+        cbSorte.setSelectedItem(Eis.getZufallseis());
 
         bNeuerKunde.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String name = tfName.getText();
-                System.out.println(name);
                 String sorte = cbSorte.getSelectedItem().toString();
-                System.out.println(sorte);
 
                 if (name == null || sorte == null) {
                     JOptionPane.showMessageDialog(null, "Fehler", "Gib sowohl Name wie auch Eissorte an",
@@ -38,24 +41,56 @@ public class Eisdiele extends JFrame {
                     return;
                 }
 
-                var kunde = new Kunde(name, sorte);
-                taLog.append("Kunde " + kunde + " hat sich angestellt...\n");
-                schlange.enqueue(kunde);
-                bBedienen.setEnabled(true);
-                taLog.append(schlange.toString() + "\n");
+                anstellen(name, sorte);
             }
         });
 
         bBedienen.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Kunde kunde = schlange.dequeue();
-                taLog.append("Kunde " + kunde + " wird bedient...\n");
-                bBedienen.setEnabled(!schlange.isEmpty());
+                bedieneKunde();
             }
         });
 
         setVisible(true);
+        bAuto.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                toggleAuto();
+            }
+        });
+    }
+
+    private void toggleAuto() {
+        if (bAuto.getText().equals("Auto-Schlange Start")) {
+            bAuto.setText("Auto-Schlange Stop");
+            thread = new EisThread(this);
+            thread.start();
+        } else {
+            bAuto.setText("Auto-Schlange Start");
+            thread.anhalten();
+            thread = null;
+        }
+    }
+
+    public void anstellen(String name, String sorte) {
+        var kunde = new Kunde(name, sorte);
+        taLog.append("+ " + kunde + " hat sich angestellt...\n");
+        schlange.enqueue(kunde);
+        bBedienen.setEnabled(true);
+        taSchlange.setText(schlange.toString());
+        tfName.setText(Kunde.getZufallsname());
+        cbSorte.setSelectedItem(Eis.getZufallseis());
+    }
+
+    public void bedieneKunde() {
+        if (schlange.isEmpty()) {return;}
+
+        Kunde kunde = schlange.dequeue();
+        taLog.append("- <strong>%s</strong> verlangt nach %s wird bedient nach %d Sekunden...\n".formatted(kunde.getName(), kunde.getSorte(), kunde.getQueuedForInSeconds()));
+        taLog.setCaretPosition(taLog.getLineCount());
+        taSchlange.setText(schlange.toString());
+        bBedienen.setEnabled(!schlange.isEmpty());
     }
 
     private void createUIComponents() {

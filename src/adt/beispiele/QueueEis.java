@@ -48,19 +48,19 @@ public class QueueEis {
     // toString => gib die Liste
     // als String aus: 5, 12, 7
     public String toString() {
-        String output = "[ ";
+        String output = "";
         Item runner = first;
 
         while (runner != null) {
             if (runner != first) {
-                output += ", ";
+                output += "\n";
             }
 
             output += runner.getData();
             runner = runner.getNext();
         }
 
-        return output + " ]";
+        return output + "";
     }
 }
 

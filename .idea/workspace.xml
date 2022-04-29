@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34215e3f-7a57-4c63-b8b0-5908f3ad35b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/adt/beispiele/Eis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adt/beispiele/Eisdiele.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adt/beispiele/Eisdiele.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adt/beispiele/Kunde.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adt/beispiele/QueueEis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adt/beispiele/EisThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adt/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adt/queue/TestQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/queue/TestQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adt/beispiele/Eis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/beispiele/Eis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adt/beispiele/Eisdiele.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/beispiele/Eisdiele.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adt/beispiele/Eisdiele.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/beispiele/Eisdiele.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adt/beispiele/Kunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/beispiele/Kunde.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adt/beispiele/QueueEis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/beispiele/QueueEis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +188,9 @@
       <workItem from="1650886149750" duration="2038000" />
       <workItem from="1651042357470" duration="5000" />
       <workItem from="1651128802774" duration="4523000" />
+      <workItem from="1651230975933" duration="4000" />
+      <workItem from="1651231613563" duration="811000" />
+      <workItem from="1651233171852" duration="4238000" />
     </task>
     <servers />
   </component>

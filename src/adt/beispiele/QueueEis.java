@@ -1,15 +1,15 @@
 package adt.beispiele;
 
 public class QueueEis {
-    private Item first;
+    private ItemEis first;
 
     public void enqueue(Kunde data) {
-        Item newItem = new Item(data);
+        ItemEis newItem = new ItemEis(data);
 
         if (isEmpty()) {
             first = newItem;
         } else {
-            Item runner = first;
+            ItemEis runner = first;
 
             while (runner.getNext() != null) {
                 runner = runner.getNext();
@@ -35,7 +35,7 @@ public class QueueEis {
 
     public int getSize() {
         int count = 0;
-        Item runner = first;
+        ItemEis runner = first;
 
         while (runner != null) {
             count++;
@@ -49,7 +49,7 @@ public class QueueEis {
     // als String aus: 5, 12, 7
     public String toString() {
         String output = "";
-        Item runner = first;
+        ItemEis runner = first;
 
         while (runner != null) {
             if (runner != first) {
@@ -64,11 +64,11 @@ public class QueueEis {
     }
 }
 
-class Item {
+class ItemEis {
     private Kunde data;
-    private Item next;
+    private ItemEis next;
 
-    public Item(Kunde data) {
+    public ItemEis(Kunde data) {
         this.data = data;
     }
 
@@ -80,11 +80,11 @@ class Item {
         this.data = data;
     }
 
-    public Item getNext() {
+    public ItemEis getNext() {
         return next;
     }
 
-    public void setNext(Item next) {
+    public void setNext(ItemEis next) {
         this.next = next;
     }
 }

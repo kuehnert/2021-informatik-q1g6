@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34215e3f-7a57-4c63-b8b0-5908f3ad35b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/adt/beispiele/GenericsBeispiel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adt/beispiele/TestList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adt/beispiele/Wartezimmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adt/list/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adt/list/listenoperatoren.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adt/queue/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adt/queue/QueueInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adt/queue/QueueObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adt/queue/TestQueueObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adt/stack/ItemInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adt/stack/StackInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adt/beispiele/QueueEis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/beispiele/QueueEis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adt/beispiele/TestStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/beispiele/TestStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adt/queue/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/queue/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adt/queue/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/queue/PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adt/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adt/queue/TestQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/queue/TestQueueInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adt/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/stack/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +48,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/adt/queue/Patient.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/adt/queue/PriorityItem.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/adt/queue/PriorityQueue.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/adt/queue/QueueInt.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -42,19 +66,11 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/adt/beispiele" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/matthias.kuehnert/Downloads/ITmitSchmiss-QuicksortDemo-1.1.1/ITmitSchmiss-QuicksortDemo-1.1.1&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\matthias.kuehnert\GITProjects\2021-informatik-q1g6-modo\src\adt\beispiele" />
@@ -62,10 +78,14 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\matthias.kuehnert\GITProjects\2021-informatik-q1g6-modo\src\adt\beispiele" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="adt.stack" />
+      <recent name="adt.queue" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TestStack">
-    <configuration name="Eisdiele" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adt.beispiele.Eisdiele" />
+  <component name="RunManager" selected="Application.TestList">
+    <configuration name="GenericsBeispiel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adt.beispiele.GenericsBeispiel" />
       <module name="2021-informatik-q1g6-modo" />
       <extension name="coverage">
         <pattern>
@@ -77,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PWGen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="anderes.cmd.PWGen" />
+    <configuration name="TestList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adt.beispiele.TestList" />
       <module name="2021-informatik-q1g6-modo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="anderes.cmd.*" />
+          <option name="PATTERN" value="adt.beispiele.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,21 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Schueler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adt.Schueler" />
-      <module name="2021-informatik-q1g6-modo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adt.queue.TestQueue" />
+    <configuration name="TestQueueInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adt.queue.TestQueueInt" />
       <module name="2021-informatik-q1g6-modo" />
       <extension name="coverage">
         <pattern>
@@ -116,7 +123,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestQueueObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adt.queue.TestQueueObject" />
+      <module name="2021-informatik-q1g6-modo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="adt.beispiele.TestStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adt.beispiele.TestStack" />
       <module name="2021-informatik-q1g6-modo" />
       <extension name="coverage">
@@ -130,19 +150,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PWGen" />
-      <item itemvalue="Application.Schueler" />
-      <item itemvalue="Application.TestQueue" />
-      <item itemvalue="Application.Eisdiele" />
-      <item itemvalue="Application.TestStack" />
+      <item itemvalue="Application.GenericsBeispiel" />
+      <item itemvalue="Application.TestList" />
+      <item itemvalue="Application.adt.beispiele.TestStack" />
+      <item itemvalue="Application.TestQueueObject" />
+      <item itemvalue="Application.TestQueueInt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestStack" />
-        <item itemvalue="Application.Eisdiele" />
-        <item itemvalue="Application.TestQueue" />
-        <item itemvalue="Application.Schueler" />
-        <item itemvalue="Application.PWGen" />
+        <item itemvalue="Application.TestList" />
+        <item itemvalue="Application.adt.beispiele.TestStack" />
+        <item itemvalue="Application.GenericsBeispiel" />
+        <item itemvalue="Application.TestQueueObject" />
+        <item itemvalue="Application.TestQueueInt" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +209,12 @@
       <workItem from="1651835856670" duration="7000" />
       <workItem from="1652700794678" duration="2651000" />
       <workItem from="1652704555838" duration="216000" />
+      <workItem from="1652857873780" duration="24000" />
+      <workItem from="1652943357731" duration="5285000" />
+      <workItem from="1653305166331" duration="42000" />
+      <workItem from="1653909834143" duration="1814000" />
+      <workItem from="1654067633196" duration="6000" />
+      <workItem from="1654152849359" duration="4405000" />
     </task>
     <servers />
   </component>

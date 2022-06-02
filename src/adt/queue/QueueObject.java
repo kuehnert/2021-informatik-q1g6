@@ -1,15 +1,15 @@
 package adt.queue;
 
-public class Queue<T> {
-    protected Item<T> first;
+public class QueueObject {
+    private ItemObject first;
 
-    public void enqueue(T data) {
-        Item<T> newItem = new Item<T>(data);
+    public void enqueue(Object data) {
+        ItemObject newItem = new ItemObject(data);
 
         if (isEmpty()) {
             first = newItem;
         } else {
-            Item<T> runner = first;
+            ItemObject runner = first;
 
             while (runner.getNext() != null) {
                 runner = runner.getNext();
@@ -19,12 +19,12 @@ public class Queue<T> {
         }
     }
 
-    public T dequeue() {
+    public Object dequeue() {
         if (first == null) {
             throw new IllegalStateException("Schlange ist leer");
         }
 
-        T data = first.getData();
+        Object data = first.getData();
         first = first.getNext();
         return data;
     }
@@ -35,7 +35,7 @@ public class Queue<T> {
 
     public int getSize() {
         int count = 0;
-        Item<T> runner = first;
+        ItemObject runner = first;
 
         while (runner != null) {
             count++;
@@ -49,7 +49,7 @@ public class Queue<T> {
     // als String aus: 5, 12, 7
     public String toString() {
         String output = "[ ";
-        Item<T> runner = first;
+        ItemObject runner = first;
 
         while (runner != null) {
             if (runner != first) {
@@ -63,3 +63,29 @@ public class Queue<T> {
         return output + " ]";
     }
 }
+
+class ItemObject {
+    private Object data;
+    private ItemObject next;
+
+    public ItemObject(Object data) {
+        this.data = data;
+    }
+
+    public Object getData() {
+        return data;
+    }
+
+    public void setData(Object data) {
+        this.data = data;
+    }
+
+    public ItemObject getNext() {
+        return next;
+    }
+
+    public void setNext(ItemObject next) {
+        this.next = next;
+    }
+}    
+

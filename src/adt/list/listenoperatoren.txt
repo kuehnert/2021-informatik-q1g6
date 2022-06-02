@@ -1,0 +1,20 @@
+Wenn wir sequentielle Daten verwalten wollen,
+reicht oft die klassische Queue nicht aus.
+
+* enqueue()
+* dequeue()
+* getSize()
+
+Welche Operationen, die über die normale Queue hinausgehen,
+wünschen Sie sich, wenn Sie z.B. an eine
+Bundesligatabllen oder eine Fehlstundenverwaltung denken?
+
+* move(from?, to?) → verschiebe Item von Position <from> an Position <to>
+* insertAt(index, data) → füge Daten <data> an Position <index> ein
+* deleteAt(index) → entferne Daten an Position <index>
+* delete(data) → entferne Datenitem mit Wert <data>
+* indexOf(data) → gibt Position von Item mit Daten <data>
+* get(index) → gibt Daten an Stelle <index> zurück
+
+* filterLuis(kriterium) → gibt alle Items zurück, die <kriterium> entsprechen (Luis kann das)
+* sortLuis() → sortiert die Items nach Comperator

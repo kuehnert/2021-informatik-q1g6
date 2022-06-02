@@ -24,4 +24,9 @@ public class Patient {
     public void setKrankheit(String krankheit) {
         this.krankheit = krankheit;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s mit %s", name, krankheit);
+    }
 }

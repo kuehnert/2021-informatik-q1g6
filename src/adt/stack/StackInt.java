@@ -1,19 +1,19 @@
 package adt.stack;
 
-public class Stack<T> {
-    Item<T> top;
+public class StackInt {
+    ItemInt top;
 
-    public Stack() {
+    public StackInt() {
         top = null;
     }
 
-    public void push(T data) {
-        Item<T> newItem = new Item<T>(data);
+    public void push(int data) {
+        ItemInt newItem = new ItemInt(data);
         newItem.setNext(top);
         top = newItem;
     }
 
-    public T peek() {
+    public int peek() {
         if (isEmpty()) {
             throw new IllegalStateException("Stack is empty!");
         } else {
@@ -23,7 +23,7 @@ public class Stack<T> {
 
     public String toString() {
         String output = "[ ";
-        Item<T> runner = top;
+        ItemInt runner = top;
 
         while (runner != null) {
             if (runner != top) {
@@ -37,11 +37,11 @@ public class Stack<T> {
         return output + " ]";
     }
 
-    public T pop() {
+    public int pop() {
         if (isEmpty()) {
             throw new IllegalStateException("Stack is empty!");
         } else {
-            T data = top.getData();
+            int data = top.getData();
             top = top.getNext();
             return data;
         }
@@ -52,27 +52,3 @@ public class Stack<T> {
     }
 }
 
-class Item<T> {
-    private T data;
-    private Item<T> next;
-
-    public Item(T data) {
-        this.data = data;
-    }
-
-    public T getData() {
-        return data;
-    }
-
-    public void setData(T data) {
-        this.data = data;
-    }
-
-    public Item<T> getNext() {
-        return next;
-    }
-
-    public void setNext(Item<T> next) {
-        this.next = next;
-    }
-}

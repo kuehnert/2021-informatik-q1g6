@@ -1,8 +1,8 @@
 package adt.queue;
 
-public class TestQueue {
+public class TestQueueInt {
     public static void main(String[] args) {
-        Queue q = new Queue();
+        QueueInt q = new QueueInt();
         q.isEmpty();
         System.out.println(q.getSize());
         q.enqueue(5);

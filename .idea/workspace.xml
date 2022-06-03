@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34215e3f-7a57-4c63-b8b0-5908f3ad35b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/adt/beispiele/GenericsBeispiel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adt/beispiele/TestList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adt/beispiele/Wartezimmer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adt/list/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adt/list/listenoperatoren.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adt/queue/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adt/queue/QueueInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adt/queue/QueueObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adt/queue/TestQueueObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adt/stack/ItemInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adt/stack/StackInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adt/beispiele/QueueEis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/beispiele/QueueEis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adt/beispiele/TestStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/beispiele/TestStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adt/queue/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/queue/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adt/queue/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/queue/PriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adt/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adt/queue/TestQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/queue/TestQueueInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adt/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adt/stack/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +196,8 @@
       <workItem from="1653305166331" duration="42000" />
       <workItem from="1653909834143" duration="1814000" />
       <workItem from="1654067633196" duration="6000" />
-      <workItem from="1654152849359" duration="4405000" />
+      <workItem from="1654152849359" duration="4554000" />
+      <workItem from="1654255092608" duration="139000" />
     </task>
     <servers />
   </component>

@@ -9,12 +9,13 @@ Welche Operationen, die über die normale Queue hinausgehen,
 wünschen Sie sich, wenn Sie z.B. an eine
 Bundesligatabllen oder eine Fehlstundenverwaltung denken?
 
-* move(from?, to?) → verschiebe Item von Position <from> an Position <to>
+* swap(from?, to?) → verschiebe Item von Position <from> an Position <to>
 * insertAt(index, data) → füge Daten <data> an Position <index> ein
 * deleteAt(index) → entferne Daten an Position <index>
 * delete(data) → entferne Datenitem mit Wert <data>
 * indexOf(data) → gibt Position von Item mit Daten <data>
-* get(index) → gibt Daten an Stelle <index> zurück
+* ✓ get(index) → gibt Daten an Stelle <index> zurück
+* set(index, data) → setzt Daten an Stelle <index>
 
 * filterLuis(kriterium) → gibt alle Items zurück, die <kriterium> entsprechen (Luis kann das)
 * sortLuis() → sortiert die Items nach Comperator
